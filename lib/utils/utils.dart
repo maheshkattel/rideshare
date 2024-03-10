@@ -3,7 +3,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 
 class Utils {
-  static String apiKey = 'AIzaSyCLybilKu3-cRK5_dIV7n0pI0OFxWsLaxk';
+  static String apiKey = 'GOOGLE_API_KEY';
 
   static void fieldFocusChange(
       BuildContext context, FocusNode currentFocusNode, FocusNode nextFocus) {

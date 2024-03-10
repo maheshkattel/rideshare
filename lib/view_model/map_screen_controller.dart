@@ -76,7 +76,7 @@ class MapScreenController extends GetxController {
   Future<void> updatePolyLines() async {
     try {
       var sourceResponse = await http.get(Uri.parse(
-          'https://maps.googleapis.com/maps/api/geocode/json?place_id=$sourcePlaceId&key=AIzaSyCLybilKu3-cRK5_dIV7n0pI0OFxWsLaxk'));
+          'https://maps.googleapis.com/maps/api/geocode/json?place_id=$sourcePlaceId&key=GOOGLE_API_KEY'));
       var sourceData = jsonDecode(sourceResponse.body);
       sourceLat.value = sourceData['results'][0]['geometry']['location']['lat'];
       sourceLng.value = sourceData['results'][0]['geometry']['location']['lng'];
@@ -87,7 +87,7 @@ class MapScreenController extends GetxController {
       print(sourceLat);
       print(sourceLng);
       var destinationResponse = await http.get(Uri.parse(
-          'https://maps.googleapis.com/maps/api/geocode/json?place_id=$destinationPlaceId&key=AIzaSyCLybilKu3-cRK5_dIV7n0pI0OFxWsLaxk'));
+          'https://maps.googleapis.com/maps/api/geocode/json?place_id=$destinationPlaceId&key=GOOGLE_API_KEY'));
       var destinationData = jsonDecode(destinationResponse.body);
       destLat.value =
           destinationData['results'][0]['geometry']['location']['lat'];
