@@ -1,0 +1,29 @@
+class RoutesName {
+  static const String firstScreen = '/';
+  static const String loginScreen = '/login_screen';
+  static const String userNavigation = '/userNavigation_Screen';
+  static const String registrationScreen = '/registration_Screen';
+  static const String completeProfileScreen = '/completeProfile_Screen';
+  static const String homeScreenTransport = '/homeScreen_Transport';
+  static const String notificationScreen = '/notification_screen';
+  static const String locationScreen = '/location_screen';
+  static const String selectTransportScreen = '/selectTransport_screen';
+  static const String availableCarScreen = '/availableCar_screen';
+  static const String availableCarList = '/availableCar_List';
+  static const String carDetailsScreen = '/carDetailsScreen';
+  static const String carRequestRentScreen = '/carRequestRentScreen';
+  static const String thankYouScreen = '/thankYouScreen';
+  static const String offerScreen = '/offerScreen';
+  static const String sideDrawer = '/sideDrawer';
+  static const String historyScreen = '/historyScreen';
+  static const String complainScreen = '/complainScreen';
+  static const String referralScreen = '/referralScreen';
+  static const String aboutUSScreen = '/aboutUsScreen';
+  static const String settingsScreen = '/settingsScreen';
+  static const String changePasswordScreen = '/changePasswordScreen';
+  static const String privacyPolicyScreen = '/privacyPolicyScreen';
+  static const String contactUsScreen = '/contactUsScreen';
+  static const String deleteAccount = '/deleteAccount';
+  static const String helpAndSupport = '/helpAndSupport';
+  static const String changeLanguage = '/changeLanguage';
+}

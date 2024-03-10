@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "194573601609",
+    "project_id": "rideshare-f288a",
+    "storage_bucket": "rideshare-f288a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194573601609:android:f73f2766bf508618f9a898",
+        "android_client_info": {
+          "package_name": "com.example.ridesharingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDno_OvroO9XsckRlIk8ojij8cKathjLp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
